@@ -4,9 +4,21 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	let num1 = 30;
-	let num2 = 20;
+	let num1;
+	let num2;
 	let resultado;
+	
+	//num1= document.getElementById("txtIdNumeroUno").value;
+	//num1=parsetInt(num1);
+	//num2= document.getElementById("txtIdNumeroDos").value;
+	//num2= parseInt(num2);
+	num1 =parseInt(document.getElementById("txtIdNumeroDos").value);
+	num2 =parseInt(document.getElementById("txtIdNumeroUno").value);
 	resultado = num1 + num2;
+	
+	alert("el resultado es " + resultado);
+	
+
+
 }
 
