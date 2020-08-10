@@ -15,7 +15,5 @@ function mostrarAumento()
 	
 	descuento = importe * 25 / 100;
 	nuevprecio=  importe - descuento;
-	nuevprecio= document.getElementById("txtIdResultado").value = nuevprecio;
-	
-	
+	document.getElementById("txtIdResultado").value = nuevprecio.toFixed(2);	
 }

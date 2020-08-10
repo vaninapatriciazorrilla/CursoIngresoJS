@@ -15,8 +15,7 @@ function mostrarAumento()
 	
 	aum = num1 * 10 / 100;
 	nuevsueldo=  num1 + aum;
-	nuevsueldo= document.getElementById("txtIdResultado").value = nuevsueldo;
+	nuevsueldo= document.getElementById("txtIdResultado").value = nuevsueldo.toFixed(2);
 	
-
 	
 }
